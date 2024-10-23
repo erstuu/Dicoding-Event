@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Dicoding Event</string>
+    <string name="title">Event title</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="searchbar_hint">Cari event apa?</string>
+    <string name="not_found">Event tidak ditemukan!</string>
+    <string name="upcoming_event">Upcoming Event</string>
+    <string name="favorite_event">Favorite Event</string>
+    <string name="finished_event">Finished Event</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_upcoming">Upcoming</string>
+    <string name="title_finished">Finished</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="daily_reminder">Beritahu ketika ada event baru</string>
+    <string name="title_home">Home</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="btn_register">Register</string>
+    <string name="title_search_bar">SearchBar</string>
+    <string name="search_hint">Cari event apa?</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sisa_qouta">Sisa Quota</string>
+    <string name="waktu_acara">Waku Acara</string>
+    <string name="penyelenggara_acara">Penyelenggara Acara</string>
+    <string name="not_added_any">Kamu belum menambahkan event favorite manapun!</string>
+</resources>
