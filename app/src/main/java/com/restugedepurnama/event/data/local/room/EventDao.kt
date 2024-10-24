@@ -17,7 +17,7 @@ interface EventDao {
     fun getUpcomingEvent(): LiveData<List<EventEntity>>
 
     @Query("SELECT * FROM event WHERE id = :id LIMIT 1")
-    suspend fun getEventbyId(id: String): EventEntity?
+    suspend fun getEventById(id: String): EventEntity?
 
     @Query("SELECT * FROM event WHERE isActive = :active AND name LIKE '%' || :query || '%' ORDER BY beginTime ASC")
     fun searchEvent(active: Int, query: String): LiveData<List<EventEntity>>

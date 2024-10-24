@@ -92,7 +92,7 @@ class EventRepository private constructor(
     fun getEvent(id: String): LiveData<Result<EventEntity>> = liveData {
         emit(Result.Loading)
         try {
-            val localEvent = eventDao.getEventbyId(id)
+            val localEvent = eventDao.getEventById(id)
 
             if (localEvent != null) {
                 emit(Result.Success(localEvent))
